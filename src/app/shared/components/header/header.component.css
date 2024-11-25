@@ -1,3 +1,7 @@
 a {
   @apply font-semibold hover:text-gray-300 text-lg
 }
+
+.active {
+  @apply underline
+}

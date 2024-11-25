@@ -1,3 +1,3 @@
 .direct-access {
-  @apply flex-1 flex justify-center text-2xl font-semibold p-8 border-[#773704] text-[#773704] rounded-lg bg-[#773704]/20 hover:bg-[#773704]/40 transition-all cursor-pointer;
+  @apply flex-1 w-full max-w-md flex justify-center text-2xl font-semibold p-8 border-[#773704] text-[#773704] rounded-lg bg-[#773704]/20 hover:bg-[#773704]/40 transition-colors cursor-pointer;
 }

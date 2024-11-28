@@ -18,6 +18,7 @@ export class AtroposCardComponent implements AfterViewInit {
         activeOffset: 20,
         shadowScale: 1,
         shadow: true,
+        duration: 200,
         onEnter() {
           console.log('Enter');
         },

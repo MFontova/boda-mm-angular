@@ -1,5 +1,5 @@
 a {
-  @apply font-semibold hover:text-gray-300 text-lg
+  @apply font-semibold hover:text-gray-300 text-xl
 }
 
 .active {

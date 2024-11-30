@@ -1,0 +1,21 @@
+<main>
+  <app-hero 
+    imageUrl="images/ixurrinos_bonics.webp" 
+    bgPositionX="25" 
+    bgPositionY="25" 
+    title="Cronograma"
+  >
+  </app-hero>
+  <section class="p-10">
+    <div class="grid grid-cols-2 gap-5 max-w-md m-auto text-xl">
+      @for (task of schedule; track $index) {
+        <div class="text-end font-extrabold text-3xl">{{task.hour}}</div>
+        <div class="font-semibold flex items-center"><p>{{task.item}}</p></div>
+        @if ($index < schedule.length - 1) {
+          <div class="h-8 border-e-2"></div>
+          <div></div>
+        }
+      }
+    </div>
+  </section>
+</main>

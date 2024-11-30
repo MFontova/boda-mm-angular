@@ -8,5 +8,9 @@ export const routes: Routes = [
   {
     path: 'where',
     loadChildren: () => import('./features/where/where.routes').then(m => m.whereRoutes)
+  },
+  {
+    path: 'cronograma',
+    loadChildren: () => import('./features/cronograma/cronograma.routes').then(m => m.cronogramaRoutes)
   }
 ];
